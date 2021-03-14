@@ -1,5 +1,6 @@
-#sitebody{
+.sitebody{
   background: black;
+  
   
 }
 ul {
@@ -11,6 +12,11 @@ ul {
 li {
   float: left;
 }
+a{
+  text-decoration: none;
+}
+a :hover{border-bottom: 1px solid lightgray;}
+
 
 li a {
   display: block;
@@ -110,7 +116,10 @@ border-color: grey;
   background-color: black; 
   color: white;
   font-size: 20px; 
+  height: 50px;
+  margin-top: 30px;
   border: 2px solid #D4AF37;
+  
   
 }
 .buttons:hover{
@@ -122,70 +131,58 @@ border-color: grey;
   margin-top: 20px;
 
 }
-h3{
-  color: white;
-  stroke: black;
-  stroke-width: 40px;
-  float: right ;
-  width: 8%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-}
-p{
-  color: whitesmoke;
-  stroke: black;
-  stroke-width: 40px;
-  float: right ;
-  width: 2px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-top: 1.5%;
-}
-#megacont{
-  padding-top: 2%;
-}
-#cardhead{
-  color: white;
-}
-#cardpara{
-  color: white;
-}
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 white;
-  border-radius: 14px;
-  border-color: whitesmoke;
-  transition: 0.3s;
-  float: left;
-  margin: 6.1%;
-  
-  
-}
 
-/* On mouse-over, add a deeper shadow */
+
+
+
 .card:hover {
   box-shadow: 0 8px 16px 0 #D4AF37;
 }
 
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-  
-  
-  
-}
-#hitman{
-  height:400px ;
-  width: 400px;
- 
-}
-#pubg{
-  height:400px ;
-  width: 400px;
- 
-}
+#makeacc{
+  margin-top: 1%;
+color: gray;
+justify-content: center;
+align-content: center;
+margin-left: 50%;
 
-#ela{
-  height:400px ;
-  width: 400px;
+
+}
+#makeacc:hover{
+  color:lightgrey ;
   
+}
+.row{
+  margin-top: 11%;
+  box-sizing: border-box;
+ 
+
+ 
+}
+.social{
+  float: left;
+  text-align: center;
+  color: black;
+  stroke: black;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+  font-weight: 600;
+  font-size: 140%;
+  text-shadow: black;
+}
+.icon{
+  float: right;
+  width: 32px;
+  height: 32px;
+  margin-left: 45px;
+  
+}
+.row:hover{
+  box-shadow: 0 8px 16px 0 #D4AF37;
+}
+#contain
+{
+
+border-radius: 10%;
+border-color: blue;
 }
